@@ -1,0 +1,21 @@
+@import 'about.css';
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 16px;
+}
+
+.sidebar__item {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sidebar__about {
+    font-size: 16px;
+    background-color: beige;
+}

@@ -1,0 +1,23 @@
+@import 'card.css';
+
+/* Mobile first  */
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Medium Screens  */
+@media (min-width: 600px) and (max-width: 900px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large Screens  */
+@media (min-width: 901px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

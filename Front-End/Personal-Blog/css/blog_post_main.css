@@ -1,0 +1,29 @@
+@import 'sidebar.css';
+@import 'article.css';
+
+/* Mobile */
+@media (max-width: 414px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Medium or Large Screens  */
+@media (min-width: 415px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    #article {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+
+    #sidebar {
+        grid-column: 3;
+        grid-row: 1;
+    }
+}

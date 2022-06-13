@@ -1,0 +1,37 @@
+@import 'button.css';
+
+/* article header: start  */
+.article__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.article__header__item {
+    margin: 2px;
+}
+
+.article__title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#batman_img {
+    width: 100%;
+}
+
+/* article footer  */
+/* button */
+.older__post {
+    border: 2px solid skyblue;
+}
+
+/* button */
+.newer__post {
+    border: 2px solid red;
+}
+
+.button__anchor {
+    text-decoration: none;
+    color: black;
+}

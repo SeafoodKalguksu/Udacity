@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                background-color: #999999;
+            }
+
+            table,
+            th,
+            tr,
+            td {
+                border: solid 1px black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <div><a href="index.html">Back</a></div>
+        <br />
+        <table>
+            <thead>
+                <!-- tr: table row -->
+                <tr>
+                    <!-- td: a cell of a table that contains data. -->
+                    <th>순번</th>
+                    <th>책이름</th>
+                    <th>가격</th>
+                    <th>판매량</th>
+                    <th>판매액</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Notion</td>
+                    <td>7,000</td>
+                    <td>1,000</td>
+                    <td>7,000,000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Node</td>
+                    <td>8,000</td>
+                    <td>1,000</td>
+                    <td>8,000,000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">총액</td>
+                    <td>15,000,000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

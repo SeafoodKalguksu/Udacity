@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>016. Flexbox examples</title>
+        <style>
+            .container {
+                display: flex;
+                width: 700px;
+                height: 700px;
+                /* default */
+                /* flex-direction: row;  */
+                /* justify-content: flex-start; */
+
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                border: 3px dotted yellow;
+            }
+
+            .box {
+                display: flex;
+                width: 300px;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+
+                border: 1px solid black;
+            }
+
+            #one {
+                background: pink;
+                /* top: 100px;
+            left: 150px;
+            z-index:1; */
+            }
+
+            #two {
+                background: orange;
+                /* top: 80px;
+            left: 100px;
+            z-index:-1; */
+            }
+
+            #three {
+                background: lightgreen;
+                /* top: 80px;
+            left: 100px;
+            z-index:-1; */
+            }
+        </style>
+    </head>
+    <body style="background-color: #999999">
+        <a href="index.html">Back</a>
+        <div class="container">
+            <div id="one" class="box">Box 1: Say your name!</div>
+            <div id="two" class="box">Box 2: Say your age!</div>
+            <div id="three" class="box">Box 3: Say your favorite food!</div>
+        </div>
+    </body>
+</html>

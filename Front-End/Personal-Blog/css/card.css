@@ -1,0 +1,30 @@
+.card {
+    padding: 5px;
+    border: 5px solid #444;
+    margin: 5px;
+}
+
+.card {
+    padding: 5px;
+    border: 5px solid #444;
+    margin: 5px;
+}
+
+.card__world {
+    font-style: bold;
+    color: skyblue;
+}
+
+.card__design {
+    font-style: bold;
+    color: green;
+}
+
+.card__title {
+    font-style: bold;
+    font-size: 28px;
+}
+
+.card__date {
+    color: grey;
+}

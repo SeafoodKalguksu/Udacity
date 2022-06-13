@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+/* blog website title */
+.header__title {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+/* search icon */
+.header__search {
+    width: 24px;
+    height: 24px;
+}

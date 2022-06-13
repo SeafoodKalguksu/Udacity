@@ -1,0 +1,9 @@
+.author {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.author__avatar {
+    width: 200px;
+}

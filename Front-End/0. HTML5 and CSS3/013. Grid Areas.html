@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>013. Grid Areas</title>
+        <style>
+            body {
+                background-color: #999999;
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .container {
+                display: grid;
+                width: 100%;
+                justify-content: center;
+                grid-template-columns: 35vw 35vw;
+                grid-template-rows: 45vh 45vh;
+                grid-template-areas: 'top top' 'bottomLeft bottomRight';
+                /* grid-template-areas: 'topLeft topRight' 'bottomLeft bottomRight'; */
+                grid-gap: 10px;
+                border: 2px dotted yellow;
+            }
+
+            .box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 9px;
+                border: 1px solid red;
+                margin: 10px;
+            }
+
+            #one {
+                /* grid-area: top; */
+                /* grid-area: topLeft; */
+                grid-area: bottomLeft;
+            }
+
+            #two {
+                grid-area: top;
+                /* grid-area: bottomLeft; */
+                /* grid-area: topRight; */
+            }
+
+            #three {
+                grid-area: bottomRight;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Back</a>
+        <div class="container">
+            <div class="box" id="one">Box 1</div>
+            <div class="box" id="two">Box 2</div>
+            <div class="box" id="three">Box 3</div>
+        </div>
+    </body>
+</html>
